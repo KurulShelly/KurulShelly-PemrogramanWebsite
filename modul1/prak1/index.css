@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f4f4;
+}
+
+
+.hero {
+    text-align: center;
+    background-image: url('images/111.jpeg');
+    background-size: cover;
+    padding: 200px 0;
+    color: #1d5132;
+}
+
+.product-btn {
+    padding: 10px 20px;
+    background-color: #3d7c64;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    cursor: pointer;
+}
+
+.hero h2 {
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.highlight {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.highlight h2 {
+    color: #3d7c64;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 30%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;  /* Menambahkan flexbox untuk membuat card menjadi flex item */
+    flex-direction: column;  /* Mengatur arah konten dalam card secara vertikal */
+    justify-content: space-between;  /* Mendistribusikan ruang antar elemen dalam card */
+}
+
+/* Menambahkan ini jika ingin memastikan gambar dalam card memiliki tinggi yang sama */
+.card img {
+    width: 100%;
+    height: 500px; /* Atur tinggi gambar yang sama untuk semua card */
+    object-fit: cover; /* Memastikan gambar tetap proporsional */
+}
+
+.kategori {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+.kategori h2 {
+    color: #3d7c64;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.kategori-row {
+    display: flex;
+    justify-content: space-around; /* Memastikan jarak antar item merata */
+    flex-wrap: wrap; /* Membuat item membungkus jika perlu */
+    max-width: 1200px; /* Membatasi lebar kategori row */
+    margin: 0 auto; /* Centering kategori row secara horizontal */
+}
+
+.kategori-item {
+    padding: 20px;
+    margin: 10px; /* Jarak antar kategori item */
+    border-radius: 10px;
+    width: calc(35% - 40px); /* Menentukan lebar item dengan margin */
+    text-align: center; /* Menyelaraskan teks di tengah */
+}
+
+.kategori-item img {
+    width: 100%;
+    height: 300px; /* Menjaga tinggi gambar seragam */
+}
+
+.kategori-item h3 {
+    color: #3d7c64;
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+.kategori-item p {
+    color: #666;
+    margin-top: 10px;
+}
+
+.kategori-item a {
+    display: inline-block;
+    margin-top: 10px;
+    color: white;
+    background-color: #ccd5d2;
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+.kategori-lainnya {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.kategori-lainnya h2 {
+    color: #3d7c64;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 40px 0;
+    text-align: center;
+}
+
+footer a {
+    color: #3d7c64;
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: 400;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+footer p {
+    margin-top: 20px;
+    font-size: 14px;
+}

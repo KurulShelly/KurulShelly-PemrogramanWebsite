@@ -1,0 +1,38 @@
+
+table, td, th {
+    border: 1px solid black;
+  }
+  
+  #table {
+    border-collapse: separate;
+  }
+  
+
+  th, td {
+    border: 1px solid black;
+    text-align: center;
+    padding: 10px;
+    font-family: Arial, sans-serif;
+  }
+  
+ 
+  th {
+    background-color: #ffeb3b; 
+    color: black;
+  }
+  
+  td:nth-child(1) {
+    background-color: #00ffff; 
+  }
+  
+  td:nth-child(2) {
+    background-color: #000000; 
+    color: white; 
+  }
+  
+  td:nth-child(3) {
+    background-color: #ffc0cb; 
+  }
+  
+ 
+  

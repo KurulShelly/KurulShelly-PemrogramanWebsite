@@ -1,0 +1,89 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #8dd3e0;
+}
+
+.calculator {
+    border-radius: 25px;
+    width: 300px;
+    background: linear-gradient(145deg, #e6e6fa, #fae6ff); 
+    padding: 25px;
+    box-shadow: 10px 10px 20px #76c0d0, -10px -10px 20px #76c0d0;
+}
+
+.calculator-screen {
+    width: 100%;
+    height: 70px;
+    background: linear-gradient(145deg, #d6e0f0, #e8d6f0); 
+    color: #333;
+    text-align: right;
+    padding: 10px;
+    font-size: 2rem;
+    border-radius: 15px;
+    border: none;
+    margin-bottom: 25px;
+    box-shadow: inset 2px 2px 5px #bebebe, inset -2px -2px 5px #ffffff;
+    box-sizing: border-box;
+}
+
+.calculator-keys {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+}
+
+button {
+    height: 60px;
+    font-size: 1.3rem;
+    background: linear-gradient(145deg, #f0d6f0, #d6e0f5); 
+    border: none;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px #f1f0f1, -5px -5px 10px #f1f0f1;
+    transition: 0.3s ease, transform 0.1s;
+    color: #333;
+}
+
+button:active {
+    background: linear-gradient(145deg, #d6e0f5, #f0d6f0); 
+    transform: scale(0.98);
+    box-shadow: inset 2px 2px 5px #bebebe, inset -2px -2px 5px #ffffff;
+}
+
+button:hover {
+    background: linear-gradient(145deg, #eae2f0, #dce7f2); 
+}
+
+.operator {
+    background: linear-gradient(145deg, #b388ff, #7c4dff); 
+    color: white;
+    box-shadow: 5px 5px 10px #7a57b0, -5px -5px 10px #c3a8ff;
+}
+
+.equal-sign {
+    background: linear-gradient(145deg, #80d8ff, #40c4ff); 
+    color: white;
+    grid-column: span 2;
+    box-shadow: 5px 5px 10px #559ec0, -5px -5px 10px #9be8ff;
+}
+
+.all-clear {
+    background: linear-gradient(145deg, #ff80ab, #ff4081); 
+    color: white;
+    box-shadow: 5px 5px 10px #c0597e, -5px -5px 10px #ffa3c2;
+}
+
+.decimal {
+    background: linear-gradient(145deg, #b2ff59, #76ff03); 
+    color: white;
+    box-shadow: 5px 5px 10px #7bcf3d, -5px -5px 10px #c9ff93;
+}
+.backspace {
+    background: linear-gradient(145deg, #a29bfe, #6c5ce7);
+    color: white;
+    box-shadow: 5px 5px 10px #564fbf, -5px -5px 10px #b5aefb;
+}
